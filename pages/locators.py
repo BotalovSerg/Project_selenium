@@ -13,6 +13,7 @@ class LoginPageLocators:
 class ProductPageLocators:
     BTN_CART = (By.CSS_SELECTOR, ".btn-add-to-basket")
     NAME_BOOK = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
+    NAME_BOOK_1 = (By.CSS_SELECTOR, "#content_inner > article > div.row > div.col-sm-6.product_main > h1")
     CART_BOOK = (By.CSS_SELECTOR, "#messages > div.alert.alert-safe.alert-noicon."
                                   "alert-info.fade.in > div > p:nth-child(1) > strong")
     CART_BOOK_1 = (By.CSS_SELECTOR, "#content_inner > article > div.row > div.col-sm-6.product_main > p.price_color")

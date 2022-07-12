@@ -10,7 +10,8 @@ class ProductPage(BasePage):
 
     def is_name_book(self):
         title = self.browser.find_element(*ProductPageLocators.NAME_BOOK).text
-        assert title == "The shellcoder's handbook", "Title book does not match"
+        title_1 = self.browser.find_element(*ProductPageLocators.NAME_BOOK_1).text
+        assert title == title_1, "Title book does not match"
 
     def is_cart_cost(self):
         cost = self.browser.find_element(*ProductPageLocators.CART_BOOK).text
