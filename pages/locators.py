@@ -8,3 +8,8 @@ class MainPageLocators:
 class LoginPageLocators:
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     LOGIN_REGISTER = (By.CSS_SELECTOR, "#register_form")
+
+
+class ProductPageLocators:
+    BTN_CART = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    NAME_BOOK = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
