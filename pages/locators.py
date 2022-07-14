@@ -22,4 +22,5 @@ class ProductPageLocators:
 
 class BasePageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    BTN_CART_HEAD = (By.CSS_SELECTOR, '[href$="basket/"]')
+    BASKET_MESSAGE_IS_EMPTY = (By.CSS_SELECTOR, "#content_inner")
