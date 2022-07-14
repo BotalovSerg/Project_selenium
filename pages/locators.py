@@ -24,3 +24,4 @@ class BasePageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     BTN_CART_HEAD = (By.CSS_SELECTOR, '[href$="basket/"]')
     BASKET_MESSAGE_IS_EMPTY = (By.CSS_SELECTOR, "#content_inner")
+    MESSAGE_ITEM_IN_CART = (By.CSS_SELECTOR, "#messages > div:nth-child(1)")
