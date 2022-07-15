@@ -15,6 +15,7 @@ def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
     cart_page = BasketPage(browser, browser.current_url)
     cart_page.checkout_there_are_no_items_in_the_cart()
     cart_page.checking_that_the_product_was_not_added_to_the_cart()
+    cart_page.pending_element_disappeared()
 
 # def test_guest_can_go_to_login_page(browser):
 #     link = "http://selenium1py.pythonanywhere.com/"
